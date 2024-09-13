@@ -1,0 +1,97 @@
+html {
+    border-left: 5px lightgray solid;
+  }
+  
+  body {
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  header,
+  main,
+  footer {
+    padding: 1rem 2rem;
+  }
+  
+  h1 {
+    color: tomato;
+    font-size: 50px;
+  }
+  #subtitle {
+    font-size: 35px;
+    color: darkslategray;
+    margin-bottom: 1rem;
+  }
+  h1,
+  h2 {
+    font-weight: lighter;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .navBar1,
+  .navBar2 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navBar1 {
+    color: lightgray;
+  }
+  
+  .navBar2 {
+    color: tomato;
+  }
+  
+  time {
+    font-size: 1.5rem;
+    color: gray;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: lighter;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  p::first-letter {
+    font-size: 400%;
+    color: lightgray;
+    float: left;
+  }
+  
+  .button {
+    border: none;
+    cursor: pointer;
+    color: tomato;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #copyright {
+    color: lightgray;
+    margin-top: 2rem;
+  }
+  
